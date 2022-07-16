@@ -997,11 +997,13 @@ display: block;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  
 }
 
 .agreement-check:checked ~ .agreement-icon {
-  fill:var(--accent-color);
-  border:none;
+  background-color: var(--accent-color);
+  border: none;
+  
 }
 .agreement-icon{
   
